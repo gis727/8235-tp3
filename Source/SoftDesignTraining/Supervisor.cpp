@@ -72,6 +72,5 @@ void Supervisor::Supervise(float deltaTime)
 		}
 	}
 
-	UE_LOG(LogTemp, Warning, TEXT("code executed in %f seconds."), TimeElapsed);
 	TimeElapsed = 0;
 }

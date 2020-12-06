@@ -48,6 +48,5 @@ void ASDTBaseAIController::SupervisedTick(float deltaTime, int Id)
     {
         ShowNavigationPath();
     }
-    UE_LOG(LogTemp, Warning, TEXT("Supervised tick done for agent %d"), Id);
 }
 

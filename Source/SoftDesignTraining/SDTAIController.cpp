@@ -288,9 +288,9 @@ void ASDTAIController::UpdatePlayerInteraction(float deltaTime)
 
 	double end = FPlatformTime::Seconds();
 	timeDetectPlayer = end - start;
-	DrawDebugString(GetWorld(), FVector(0.f, 0.f, 20.f), FString::SanitizeFloat(timeDetectPlayer) + " s for object detection.", GetPawn(), FColor::Green, 0.f, false);
-	DrawDebugString(GetWorld(), FVector(0.f, 0.f, 25.f), FString::SanitizeFloat(timeCollectible) + " s for collectible choice.", GetPawn(), FColor::Green, 0.f, false);
-	DrawDebugString(GetWorld(), FVector(0.f, 0.f, 30.f), FString::SanitizeFloat(timeFleeLocation) + " s for flee location.", GetPawn(), FColor::Green, 0.f, false);
+	DrawDebugString(GetWorld(), FVector(0.f, 0.f, 0.f), FString::SanitizeFloat(timeDetectPlayer) + " s for object detection.", GetPawn(), FColor::Green, 0.f, false);
+	DrawDebugString(GetWorld(), FVector(0.f, 0.f, 60.f), FString::SanitizeFloat(timeCollectible) + " s for collectible choice.", GetPawn(), FColor::Green, 0.f, false);
+	DrawDebugString(GetWorld(), FVector(0.f, 0.f, 120.f), FString::SanitizeFloat(timeFleeLocation) + " s for flee location.", GetPawn(), FColor::Green, 0.f, false);
 
     DrawDebugString(GetWorld(), FVector(0.f, 0.f, 5.f), debugString, GetPawn(), FColor::Orange, 0.f, false);
 

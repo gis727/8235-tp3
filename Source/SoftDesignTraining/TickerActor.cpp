@@ -22,7 +22,6 @@ ATickerActor::ATickerActor()
 void ATickerActor::BeginTicking()
 {
 	TicTac = true;
-	UE_LOG(LogTemp, Warning, TEXT("ticker actor ticking"));
 }
 
 // Called when the game starts or when spawned

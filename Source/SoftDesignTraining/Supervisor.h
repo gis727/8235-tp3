@@ -32,7 +32,7 @@ private:
 
 	int AgentNumber = 0;
 	int Counter = 0;
-	double Budget = 0.001;
+	double Budget = 0.02;
 	double TimeElapsed = 0;
 	double Start = 0;
 	double End = 0;
